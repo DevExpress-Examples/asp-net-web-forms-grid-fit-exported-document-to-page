@@ -9,13 +9,13 @@
 **[[Run Online]](https://codecentral.devexpress.com/e3994/)**
 <!-- run online end -->
 
-This example illustrates how to use the XtraPrinting library to adjust width of an exported [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) to occupy a single page.
+This example illustrates how to use the XtraPrinting library to adjust the width of an exported [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) to occupy a single page.
 
 ![](exported-grid.png)
 
-To fit the grid to one document page follow the steps below:
+ Follow the steps below to fit the grid to one document page:
 
-1. Create a [PrintableComponentLinkBase](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrintingLinks.PrintableComponentLinkBase) object for for the grid component. 
+1. Create a [PrintableComponentLinkBase](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrintingLinks.PrintableComponentLinkBase) object for the grid component. 
 2. Set the [Document.AutoFitToPagesWidth](http://documentation.devexpress.com/#CoreLibraries/DevExpressXtraPrintingDocument_AutoFitToPagesWidthtopic) property to `1` to fit the grid to one page. 
 3. Call the [ExportToPdf](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPrinting.LinkBase.ExportToPdf(System.IO.Stream)) method to export the document to a stream in PDF format.
 
