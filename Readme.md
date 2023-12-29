@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # Grid View for ASP.NET Web Forms - How to fit exported document to page
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128536701/)**
-<!-- run online end -->
 
 This example illustrates how to use the XtraPrinting library to adjust the width of an exported [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) to occupy a single page.
 
